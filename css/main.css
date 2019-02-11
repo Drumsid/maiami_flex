@@ -36,3 +36,7 @@ body {
 .top-logo {
 	width: 15vh;
 }
+.top-call {
+	text-transform: uppercase;
+	
+}
