@@ -1,0 +1,38 @@
+body {
+	background-color: #fff;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.26vmax;
+	line-height: 1.9vmax;
+	color: #323232;
+	background-color: #0E226B;
+}
+.wrap {
+	width: 75%;
+	margin: 0 auto;
+	position: relative;
+	
+}
+.header	{
+	width: 100%;
+	max-width: 1260px;
+	margin: 0 auto;
+	height: 100vh;
+	max-height: 765px;
+	position: relative;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../img/bg-head_1.png);
+	padding-top: 7vh;
+	color: #fff;
+	
+}
+.top-header {
+	height: 11vh;
+	overflow: hidden;
+	
+}
+.top-logo {
+	width: 15vh;
+}
