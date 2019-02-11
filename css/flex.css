@@ -1,4 +1,6 @@
 /*Flex Framework*/ 
+
+/*мне такой подход не понравился и я буду по старинке вручную писать все флексы*/
 .main_flex {
  display:flex;
  display:-webkit-flex;

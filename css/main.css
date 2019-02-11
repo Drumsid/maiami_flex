@@ -25,7 +25,11 @@ body {
 	background-position: center;
 	background-image: url(../img/bg-head_1.png);
 	padding-top: 7vh;
+	padding-bottom: 8vh;
 	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	
 }
 .top-header {
@@ -37,6 +41,27 @@ body {
 	width: 15vh;
 }
 .top-call {
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.top-call:hover {
+	text-decoration: underline;
+}
+.bottom-header nav ul {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+} 
+nav li {
+	display: inline-block;	
+}
+nav li a {
+	text-decoration: none;
+	color: #fff;
 	text-transform: uppercase;
 	
 }
