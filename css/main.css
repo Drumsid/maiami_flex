@@ -121,7 +121,57 @@ nav li a {
 	margin: 0 auto;
 	background-color: #EEEEEE;
 }
-.gallery-block h2 {
-	text-align: center;
+.title-block {
+	margin: 0 auto 5.5vh;
+	z-index: 5;
+	width: fit-content;
+	position: relative;
+    top: -3vh;
+}
+.title-block h2 {
 	text-transform: uppercase;
+	text-align: center;
+	font-size: 3.8vw;
+	margin-bottom: 1.22vh;
+}
+.dec {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.line {
+	background-color: #00ABF2;
+	height: 0.26vh;
+	width: 100%;
+}
+.st01 {
+	fill: #00ABF2;
+}
+.dec-svg {
+	width: 2.58vw;	
+	margin: 0 0.79vw;
+}
+.consultation-wrap {
+	width: 100%;
+	max-width: 1260px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.testimonials-wrap {
+	width: 100%;
+	max-width: 1260px;
+	margin: 0 auto;
+	background-color: #EEEEEE;
+}
+
+.contacts-wrap {
+	width: 100%;
+	max-width: 1260px;
+	margin: 0 auto;
+	background-color: #fff;
 }
