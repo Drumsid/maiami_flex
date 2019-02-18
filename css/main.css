@@ -423,10 +423,10 @@ nav li a {
     background-color: #fff;
     left: 0;
     width: 100%;
-    height: 8vh;
+    height: 5vh;
     color: #000;
     z-index: 10;
-    padding: 15px 0 0;
+    padding: 8px 0 0;
     transition: 0.25s easy-in-out;
 }
 .top-fix a {
@@ -514,5 +514,148 @@ nav li a {
 	 {
 		background-image: url(../img/bg-head_1.png);
 		animation-timing-function: easy-in-out;	
+	}
+}
+
+/*-----------------------------media*/
+
+/*@media only screen and (max-width: 320px),
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px),
+
+{	
+	.modal-box {
+	    top: 20vh;
+	    width: 40vw;
+	    left: calc(50% - 25vw);
+	}
+	.close-modal {
+	    width: 3vw;
+	    height: 5vh;
+	    top: -7vh;
+	    right: -9vh;
+	}
+	#form-call input {
+    	font-size: 3vw;
+	}
+	#form-call button {
+    	font-size: 3vw;
+	}
+	body {
+		font-size: 2.7vmax;
+		line-height: 2.9vmax;
+	}
+	.title-block {
+    top: -2vh;
+	}
+	.title-block h2 {
+    	font-size: 5vw;
+	}
+	.header {
+		padding: 5vh 0;
+	}
+	.bottom-header {
+		display: none;
+	}
+	.top-header {
+		height: 60vh;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.top-phone,
+	.top-call {/*
+		font-size: 2.8vh;*/
+		padding: 1vh 0;
+	}
+	.top-logo {
+    	width: 30vh;
+	}
+	.about-right {
+    	width: 43vw;
+    	font-size: 2.7vmax;
+    	line-height: 2.9vmax;
+    	padding: 0;
+	}
+	.about-left p {
+    	font-size: 5vw;
+	}
+	.dec-svg {
+    	width: 10.58vw;
+	}
+	.gallery-img-block img {
+    	width: 100%;
+    	height: auto;
+    	padding-bottom: 1vh;
+	}
+	.gallery-button button {
+    	font-size: 3.7vw;
+	}
+	.consalt-text {
+    	width: 37vw;
+	}
+	.consalt-text h4 {
+	    font-size: 3.5vw;
+	    line-height: 4.4vh;
+	}
+	.consalt-text p {
+	    font-size: 2.9vw;
+	    line-height: 2vh;
+	}
+	.consalt-form {
+    	width: 37vw;
+	}
+	#form-consult input {
+    height: 4vh;
+    font-size: 3vw;
+    margin: 0 0 1vh;
+	}
+	#form-consult button {
+    font-size: 2.7vw;
+    padding: 1.5vh 3vh;
+	}
+	.card-box h5 {
+		font-size: 4vw;
+	}
+	.card-box p {
+		font-size: 3.8vw;
+		margin: 2.5vh 0 4vw;
+	}
+	.card-box i {
+		font-size: 3.5vw;
+	}
+	.card-box .text-many {
+		font-size: 2.8vw;
+		width: 50vw;
+	}
+	.contact-box {
+		-ms-align-items: flex-start;
+		align-items: flex-start;
+	}
+	.contact-left, .contact-right {
+		width: 37vw;
+	}
+	.contact-left a {
+		font-size: 4vw;
+	}
+	.phone-contact {
+    	font-size: 2.8vw;
+	}
+	.addres-contact {
+    	margin-top: 3vh;
+    	font-size: 2.8vw;
+	}
+	.contact-right input {
+    height: 5vh;
+    margin-bottom: 1.5vh;
+    font-size: 2.8vw;
+	}
+	.contact-right textarea {
+    font-size: 2.8vw;
+    height: 8vh;
+	}
+	.contact-right button {
+    font-size: 2.7vw;
+    padding: 1.5vh 3vh;
 	}
 }
