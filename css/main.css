@@ -517,10 +517,319 @@ nav li a {
 	}
 }
 
-/*-----------------------------media*/
+/*--------------------------------------------------------------------------------------------media*/
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1370px)
+{
+	.about-right {
+	    width: 30vw;
+	    padding-right: 1.5vw;
+	    font-size: 1.6vmax;
+	    line-height: 1.9vmax;
+	}
+	.title-block {
+	    top: -1.7vh;
+	}
+	.gallery-button button {
+	    font-size: 1.7vw;
+	}
+	.consalt-text {
+    	width: 32vw;
+	}
+	.consalt-text h4 {
+	    font-size: 3vw;
+	    line-height: 4vh;
+	}
+	.consalt-text p {
+	    font-size: 2vw;
+	    line-height: 3vh;
+	    font-weight: 300;
+	}
+	.consalt-form {
+    	width: 30vw;
+	}
+	#form-consult input {
+	    height: 5vh;
+	    font-size: 1.5vw;
+	    margin: 0 0 0.5vh;
+	}
+	#form-consult button {
+	    font-size: 1.4vw;
+	    padding: 1.5vh 3vh;
+	}
+	.card-box h5 {
+		font-size: 2vw;
+	}
+	.card-box p {
+		font-size: 1.5vw;
+		margin: 2.5vh 0 4vw;
+	}
+	.card-box i {
+		font-size: 1.5vw;
+	}
+	.card-box .text-many {
+		font-size: 1.5vw;
+		width: 20vw;
+	}
+	.contact-box {
+		-ms-align-items: flex-start;
+		align-items: flex-start;
+	}
+	.contact-left, .contact-right {
+		width: 37vw;
+	}
+	.contact-left a {
+		font-size: 2.5vw;
+	}
+	.phone-contact {
+    	font-size: 2.1vw;
+	}
+	.addres-contact {
+    	margin-top: 3vh;
+    	font-size: 2vw;
+	}
+	.contact-right input {
+	    height: 5vh;
+	    margin-bottom: 0.5vh;
+	    font-size: 2vw;
+	}
+	.contact-right textarea {
+	    font-size: 2vw;
+	    height: 8vh;
+	}
+	.contact-right button {
+	    font-size: 2vw;
+	    padding: 1.5vh 3vh;
+	}
 
-/*@media only screen and (max-width: 320px),
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)*/
+}
+
+@media only screen and (min-device-width: 760px) and (max-device-width: 1024px) 
+{
+	body {
+		font-size: 1.7vmax;
+		line-height: 2.9vmax;
+	}
+	.about-right {
+    	width: 43vw;
+    	font-size: 1.9vmax;
+    	line-height: 2.9vmax;
+    	padding: 0;
+	}
+	.about-left p {
+    	font-size: 4vw;
+	}
+	.title-block h2 {
+    	font-size: 4vw;
+	}
+	.dec-svg {
+	    width: 6.58vw;
+	    margin: 0 0.79vw;
+	}
+	.gallery-img-block img {
+    	width: 100%;
+    	height: auto;
+    	padding-bottom: 1.5vh;
+	}
+	.gallery-button button {
+    font-size: 2.5vw;
+	}
+	.consalt-text {
+    	width: 37vw;
+	}
+	.consalt-text h4 {
+	    font-size: 3.5vw;
+	    line-height: 4vh;
+	}
+	.consalt-text p {
+	    font-size: 2.4vw;
+	    line-height: 3vh;
+	    font-weight: 300;
+	}
+	.consalt-form {
+    	width: 36vw;
+	}
+	#form-consult input {
+    height: 5vh;
+    font-size: 2.5vw;
+    margin: 0 0 0.5vh;
+	}
+	#form-consult button {
+    font-size: 2.4vw;
+    padding: 1.5vh 3vh;
+	}
+	.card-box h5 {
+		font-size: 3.5vw;
+	}
+	.card-box p {
+		font-size: 2.8vw;
+		margin: 2.5vh 0 4vw;
+	}
+	.card-box i {
+		font-size: 2.5vw;
+	}
+	.card-box .text-many {
+		font-size: 2.1vw;
+		width: 50vw;
+	}
+	.contact-box {
+		-ms-align-items: flex-start;
+		align-items: flex-start;
+	}
+	.contact-left, .contact-right {
+		width: 37vw;
+	}
+	.contact-left a {
+		font-size: 3vw;
+	}
+	.phone-contact {
+    	font-size: 2.3vw;
+	}
+	.addres-contact {
+    	margin-top: 3vh;
+    	font-size: 2.1vw;
+	}
+	.contact-right input {
+	    height: 5vh;
+	    margin-bottom: 0.5vh;
+	    font-size: 2.1vw;
+	}
+	.contact-right textarea {
+	    font-size: 2.1vw;
+	    height: 8vh;
+	}
+	.contact-right button {
+	    font-size: 2.1vw;
+	    padding: 1.5vh 3vh;
+	}
+
+}
+@media only screen and (min-device-width: 812px) and (max-device-width: 823px)
+{	
+
+	.consalt-text h4 {
+	    font-size: 3.5vw;
+	    line-height: 6vh;
+	}
+	.consalt-text p {
+	    font-size: 2.4vw;
+	    line-height: 5vh;
+	}
+	#form-consult input {
+	    height: 8vh;
+	    font-size: 2.5vw;
+	    margin: 0 0 1.3vh;
+	}
+	.contact-right input {
+	    height: 8vh;
+	    margin-bottom: 1.3vh;
+	    font-size: 2.1vw;
+	}
+	.card-box .text-many {
+		line-height: 4vh;
+	}
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 759px),
+{
+	body {
+		font-size: 1.7vmax;
+		line-height: 2.9vmax;
+	}
+	.about-right {
+    	width: 43vw;
+    	font-size: 1.9vmax;
+    	line-height: 2.9vmax;
+    	padding: 0;
+	}
+	.about-left p {
+    	font-size: 4vw;
+	}
+	.title-block h2 {
+    	font-size: 4vw;
+	}
+	.dec-svg {
+	    width: 6.58vw;
+	    margin: 0 0.79vw;
+	}
+	.gallery-img-block img {
+    	width: 100%;
+    	height: auto;
+    	padding-bottom: 1.5vh;
+	}
+	.gallery-button button {
+    font-size: 2.5vw;
+	}
+	.consalt-text {
+    	width: 37vw;
+	}
+	.consalt-text h4 {
+	    font-size: 3.5vw;
+	    line-height: 6vh;
+	}
+	.consalt-text p {
+	    font-size: 2.1vw;
+	    line-height: 4vh;
+	}
+	.consalt-form {
+    	width: 36vw;
+	}
+	#form-consult input {
+    height: 8vh;
+    font-size: 2.5vw;
+    margin: 0 0 1vh;
+	}
+	#form-consult button {
+    font-size: 2.4vw;
+    padding: 1.5vh 3vh;
+	}
+	.card-box h5 {
+		font-size: 3.5vw;
+	}
+	.card-box p {
+		font-size: 2.8vw;
+		margin: 2.5vh 0 4vw;
+	}
+	.card-box i {
+		font-size: 2.5vw;
+	}
+	.card-box .text-many {
+		font-size: 2.1vw;
+		width: 50vw;
+	}
+	.contact-box {
+		-ms-align-items: flex-start;
+		align-items: flex-start;
+	}
+	.contact-left, .contact-right {
+		width: 37vw;
+	}
+	.contact-left a {
+		font-size: 3vw;
+	}
+	.phone-contact {
+    	font-size: 2.3vw;
+	}
+	.addres-contact {
+    	margin-top: 3vh;
+    	font-size: 2.1vw;
+	}
+	.contact-right input {
+    height: 8vh;
+    margin-bottom: 1.5vh;
+    font-size: 2.1vw;
+	}
+	.contact-right textarea {
+    font-size: 2.1vw;
+    height: 8vh;
+	}
+	.contact-right button {
+    font-size: 2.1vw;
+    padding: 1.5vh 3vh;
+	}
+
+	
+
+}
+
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px),
 
@@ -646,8 +955,8 @@ nav li a {
     	font-size: 2.8vw;
 	}
 	.contact-right input {
-    height: 5vh;
-    margin-bottom: 1.5vh;
+    height: 4vh;
+    margin-bottom: 0.5vh;
     font-size: 2.8vw;
 	}
 	.contact-right textarea {
